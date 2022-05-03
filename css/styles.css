@@ -1,3 +1,81 @@
 body {
-    background-color: rgb(39, 11, 39);
+    background-color: rgb(49, 12, 92);
+}
+
+header {
+    border: 2px solid rgb(12, 12, 12);
+    background-color: rgb(227, 242, 255);
+    box-shadow: 4px 8px 10px rgb(12, 12, 12);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-style: italic;
+    font-family: fantasy;
+    border: 2px solid rgb(12, 12, 12);
+    background-color: rgb(227, 242, 255);
+    box-shadow: 4px 8px 10px rgb(12, 12, 12);
+    text-align: center;
+}
+
+nav {
+    border: 2px solid rgb(12, 12, 12);
+    background-color: rgb(227, 242, 255);
+    box-shadow: 4px 8px 10px rgb(12, 12, 12);
+    padding: 15px;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+ul li {
+    border: 2px solid rgb(12, 12, 12);
+    background-color: rgb(49, 12, 92, 0.725);
+    box-shadow: 4px 8px 10px rgb(12, 12, 12);
+    padding: 15px;
+    display: inline-block;
+}
+
+ul li a {
+    color: rgb(12, 12, 12);
+    text-decoration: none;
+}
+
+ul li:hover {
+    background-color: rgb(144, 238, 144);
+    box-shadow: 4px 8px 10px rgb(227, 242, 255);
+}
+
+.container {
+    margin: auto;
+    padding: 15px;
+    border: 2px solid rgb(12, 12, 12);
+    background-color: rgb(227, 242, 255, 0.3);
+}
+
+footer {
+    border: 2px solid rgb(12, 12, 12);
+    background-color: rgb(227, 242, 255);
+    box-shadow: 4px 8px 10px rgb(12, 12, 12);
+    text-align: center;
+    padding: 15px;
+    margin-left: 1px;
+}
+
+.fa-wine-glass {
+    color: rgb(85, 22, 22);
+}
+
+.fa-whiskey-glass {
+    color: rgb(59, 42, 17);
+}
+
+.fa-martini-glass {
+    color: rgb(38, 83, 38);
 }
